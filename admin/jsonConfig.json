@@ -1,0 +1,11 @@
+{
+    "i18n": true,
+    "type": "panel",
+    "items": {
+        "battery_capacity": {
+            "type": "number",
+            "label": "Battery Capacity",
+            "newLine": true
+        }
+    }
+}

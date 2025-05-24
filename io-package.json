@@ -1,0 +1,93 @@
+{
+    "common": {
+        "name": "power-balancer",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "uk": "Початкова версія",
+                "zh-cn": "首次出版"
+            }
+        },
+        "titleLang": {
+            "en": "PowerBalancer",
+            "de": "PowerBalancer",
+            "ru": "PowerBalancer",
+            "pt": "PowerBalancer",
+            "nl": "PowerBalancer",
+            "fr": "PowerBalancer",
+            "it": "PowerBalancer",
+            "es": "PowerBalancer",
+            "pl": "PowerBalancer",
+            "uk": "PowerBalancer",
+            "zh-cn": "PowerBalancer"
+        },
+        "desc": {
+            "en": "Smart IoBroker adapter for optimizing energy distribution in your home. It efficiently manages PV generation, battery storage, and grid power to maximize self-consumption and reduce energy costs.",
+            "de": "Smart IoBroker adapter for optimizing energy distribution in your home. It efficiently manages PV generation, battery storage, and grid power to maximize self-consumption and reduce energy costs.",
+            "ru": "Smart IoBroker adapter for optimizing energy distribution in your home. It efficiently manages PV generation, battery storage, and grid power to maximize self-consumption and reduce energy costs.",
+            "pt": "Smart IoBroker adapter for optimizing energy distribution in your home. It efficiently manages PV generation, battery storage, and grid power to maximize self-consumption and reduce energy costs.",
+            "nl": "Smart IoBroker adapter for optimizing energy distribution in your home. It efficiently manages PV generation, battery storage, and grid power to maximize self-consumption and reduce energy costs.",
+            "fr": "Smart IoBroker adapter for optimizing energy distribution in your home. It efficiently manages PV generation, battery storage, and grid power to maximize self-consumption and reduce energy costs.",
+            "it": "Smart IoBroker adapter for optimizing energy distribution in your home. It efficiently manages PV generation, battery storage, and grid power to maximize self-consumption and reduce energy costs.",
+            "es": "Smart IoBroker adapter for optimizing energy distribution in your home. It efficiently manages PV generation, battery storage, and grid power to maximize self-consumption and reduce energy costs.",
+            "pl": "Smart IoBroker adapter for optimizing energy distribution in your home. It efficiently manages PV generation, battery storage, and grid power to maximize self-consumption and reduce energy costs.",
+            "uk": "Smart IoBroker adapter for optimizing energy distribution in your home. It efficiently manages PV generation, battery storage, and grid power to maximize self-consumption and reduce energy costs.",
+            "zh-cn": "Smart IoBroker adapter for optimizing energy distribution in your home. It efficiently manages PV generation, battery storage, and grid power to maximize self-consumption and reduce energy costs."
+        },
+        "authors": [
+            "JB <96919536+jb-io@users.noreply.github.com>"
+        ],
+        "keywords": [
+            "powerBalancer",
+            "energy optimization",
+            "smart home",
+            "solar",
+            "PV",
+            "battery",
+            "load balancing"
+        ],
+        "licenseInformation": {
+            "type": "free",
+            "license": "GPL-3.0"
+        },
+        "platform": "Javascript/Node.js",
+        "icon": "power-balancer.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/jb-io/ioBroker.power-balancer/main/admin/power-balancer.png",
+        "readme": "https://github.com/jb-io/ioBroker.power-balancer/blob/main/README.md",
+        "loglevel": "info",
+        "tier": 3,
+        "mode": "daemon",
+        "type": "logic",
+        "compact": true,
+        "connectionType": "local",
+        "dataSource": "poll",
+        "adminUI": {
+            "config": "json"
+        },
+        "dependencies": [
+            {
+                "js-controller": ">=6.0.11"
+            }
+        ],
+        "globalDependencies": [
+            {
+                "admin": "7.0.23"
+            }
+        ]
+    },
+    "native": {
+        "battery_capacity": "10.2"
+    },
+    "objects": [],
+    "instanceObjects": []
+}
